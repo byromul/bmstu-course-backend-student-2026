@@ -1,0 +1,2 @@
+FrozenInstanceError
+Вы нашли выход.

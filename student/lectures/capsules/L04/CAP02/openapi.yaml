@@ -1,0 +1,25 @@
+openapi: 3.1.0
+info:
+  title: Учебный API квеста
+  version: 1.0.0
+paths:
+  /api/v1/characters/initialize:
+    post:
+      responses:
+        '200':
+          description: Персонаж создан
+  /api/v1/scenes/{scene_id}:
+    get:
+      responses:
+        '200':
+          description: Сцена найдена
+  /api/v1/dice/rolls:
+    post:
+      responses:
+        '200':
+          description: Бросок выполнен
+  /api/v1/combat/attacks/resolve:
+    post:
+      responses:
+        '200':
+          description: Удар рассчитан
