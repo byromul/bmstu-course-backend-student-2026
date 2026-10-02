@@ -2,7 +2,7 @@
   "format_version": 1,
   "course_id": "python-django-backend",
   "course_version": "0.8.0",
-  "source_build_fingerprint": "765eda6302f1a0a7db3b9796f43730a67807434486339c2ac6d910a5a5c46e2c",
+  "source_build_fingerprint": "007a3a9298e09260375234334c521558191d9aa80a777ca535b4380b8a5719b5",
   "whitelist_sha256": "712824d386cffebe262a8725d328beb7fbeee1901711bd1c5b3b0b74327587ff",
   "files": {
     "README.md": {
@@ -11,7 +11,7 @@
     },
     "glossary.md": {
       "source": "glossary.md",
-      "sha256": "852b8fb439fea226a8e438c50704076dcc8e25014d5aba8c2ef5f31dc16d9bb5"
+      "sha256": "73c4ed3ab3e36ec4febd974201ee82a2095e835af9b6e408372cc9bf3cfa921c"
     },
     "media/MED01-console-quest-battle-hp-75.png": {
       "source": "media/MED01-console-quest-battle-hp-75.png",
@@ -91,7 +91,7 @@
     },
     "student/handouts/L01.md": {
       "source": "student/handouts/L01.md",
-      "sha256": "0440b6eb1f285a1171b0aabb15bee777e25b2d550fd5fc0f02dedf8ea8ffc91d"
+      "sha256": "92f0f9fdc1cce68525f3a2d68127c9fa41d70958c156606dc3975788b7392a90"
     },
     "student/homework/HW01.md": {
       "source": "student/homework/HW01.md",
@@ -99,7 +99,7 @@
     },
     "student/lectures/L01.html": {
       "source": "student/lectures/L01.html",
-      "sha256": "8895ce1cc14ac7ed6c371ff9dade4d72ad3d5898959f3f0e21d132f1b2144a69"
+      "sha256": "36fc5c7846ce57f1d750f1aa4fda6388b575d46e063a6831e791bb813bb36736"
     },
     "student/lectures/examples/L01-EX01/README.md": {
       "source": "student/lectures/examples/L01-EX01/README.md",
@@ -127,7 +127,7 @@
     },
     "student/lectures/examples/L01-EX02/check.py": {
       "source": "student/lectures/examples/L01-EX02/check.py",
-      "sha256": "2410c861ef258eca89c87f40327e3bf6446b6296451aae9f75e507fe32b89cb7"
+      "sha256": "28cdfbba3f42697ad8cf791cfa820e4a2db52fbce124190176078fc6cd013353"
     },
     "student/lectures/examples/L01-EX02/control_flow.expected.txt": {
       "source": "student/lectures/examples/L01-EX02/control_flow.expected.txt",

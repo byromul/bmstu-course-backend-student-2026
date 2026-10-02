@@ -30,15 +30,27 @@ def main() -> int:
         target_dir = Path(temporary)
         basics_ok = run_script("basics.py", "expected.txt", target_dir)
         flow_ok = run_script("control_flow.py", "control_flow.expected.txt", target_dir)
-        shutil.copy2(ROOT / "invalid_case.py", target_dir / "invalid_case.py")
-        invalid = subprocess.run(
-            [sys.executable, "invalid_case.py"],
-            cwd=target_dir,
-            capture_output=True,
-            text=True,
-            check=False,
+        failures = (
+            ("слово", "Введите целый номер"),
+            ("0", "Такого варианта нет"),
+            ("3", "Такого варианта нет"),
         )
-    invalid_ok = invalid.returncode != 0 and "ValueError: Введите целый номер" in invalid.stderr
+        invalid_ok = True
+        for raw_choice, message in failures:
+            probe = target_dir / "probe.py"
+            probe.write_text(
+                "from control_flow import parse_choice\n"
+                f"parse_choice({raw_choice!r}, 2)\n",
+                encoding="utf-8",
+            )
+            invalid = subprocess.run(
+                [sys.executable, probe.name],
+                cwd=target_dir,
+                capture_output=True,
+                text=True,
+                check=False,
+            )
+            invalid_ok &= invalid.returncode != 0 and f"ValueError: {message}" in invalid.stderr
     if not basics_ok or not flow_ok or not invalid_ok:
         print("EX02 НЕ ПРОЙДЕНА", file=sys.stderr)
         return 1
