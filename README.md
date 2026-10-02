@@ -14,5 +14,5 @@
 - [Письменный конспект и опорный маршрут лекции 1](student/handouts/L01.md) — `workbook`
 - [Автономные исполняемые задачи лекций 1–8](student/lectures/examples) — `project`
 - [Независимая предварительная проверка среды](scripts/README.md) — `project`
-- [Домашняя работа 1 — создание `console-quest` из пустого каталога и связь объектов](student/homework/HW01.md) — `homework`
+- [Домашняя работа 1 — создание `console-quest` из пустого каталога и публикация на GitHub](student/homework/HW01.md) — `homework`
 - [Открытые внешние проверки этапов `console-quest` и `django-quest`](student/checks/README.md) — `project`

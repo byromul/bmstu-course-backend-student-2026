@@ -2,12 +2,12 @@
   "format_version": 1,
   "course_id": "python-django-backend",
   "course_version": "0.8.0",
-  "source_build_fingerprint": "d9b35fc05a43850f3c1038d17f6342d8e76ca91663e24b1fead7d63f61a676cd",
+  "source_build_fingerprint": "765eda6302f1a0a7db3b9796f43730a67807434486339c2ac6d910a5a5c46e2c",
   "whitelist_sha256": "712824d386cffebe262a8725d328beb7fbeee1901711bd1c5b3b0b74327587ff",
   "files": {
     "README.md": {
       "source": "STUDENT_README.md",
-      "sha256": "47db68d5c0e0f0df9ed3203464a50a3f70bcd35d78ba90173e217c3cd2c4400e"
+      "sha256": "ed0772b83a9466206ffe3d593faca1e53b208fd1fb5ed727c5a40027709346a5"
     },
     "glossary.md": {
       "source": "glossary.md",
@@ -91,15 +91,15 @@
     },
     "student/handouts/L01.md": {
       "source": "student/handouts/L01.md",
-      "sha256": "c3b8cd9a1a4e8f9094c4bfad0d74b6381df3f73036913c22a1089bdeb59bcfd2"
+      "sha256": "0440b6eb1f285a1171b0aabb15bee777e25b2d550fd5fc0f02dedf8ea8ffc91d"
     },
     "student/homework/HW01.md": {
       "source": "student/homework/HW01.md",
-      "sha256": "4b2e9e3f36f8a3fbcab6032d8d4b386ff0490ee732aad9c2b73236b3c994be00"
+      "sha256": "4eea7b23ba11424b29b1e50bcd20a363fd7e7c737c10cfc93441f01dcfb825df"
     },
     "student/lectures/L01.html": {
       "source": "student/lectures/L01.html",
-      "sha256": "e2415ac371183edbe9acc869eb8c726fed6bbe3ee4e9eb0479ab16fa403018cc"
+      "sha256": "8895ce1cc14ac7ed6c371ff9dade4d72ad3d5898959f3f0e21d132f1b2144a69"
     },
     "student/lectures/examples/L01-EX01/README.md": {
       "source": "student/lectures/examples/L01-EX01/README.md",
