@@ -1,0 +1,190 @@
+{
+  "format_version": 1,
+  "course_id": "python-django-backend",
+  "course_version": "0.8.0",
+  "source_build_fingerprint": "eeafdbefed4aad865e22c65e2122cc74da9524d64bc15ac40f42e5c83a02841b",
+  "whitelist_sha256": "712824d386cffebe262a8725d328beb7fbeee1901711bd1c5b3b0b74327587ff",
+  "files": {
+    "README.md": {
+      "source": "STUDENT_README.md",
+      "sha256": "47db68d5c0e0f0df9ed3203464a50a3f70bcd35d78ba90173e217c3cd2c4400e"
+    },
+    "glossary.md": {
+      "source": "glossary.md",
+      "sha256": "852b8fb439fea226a8e438c50704076dcc8e25014d5aba8c2ef5f31dc16d9bb5"
+    },
+    "media/MED01-console-quest-battle-hp-75.png": {
+      "source": "media/MED01-console-quest-battle-hp-75.png",
+      "sha256": "072c6d7f2f4676924bce6722949ddb10ba1dc6c93f0136795247bd6e98d1e9b7"
+    },
+    "media/MED05-console-quest-interview-alien.svg": {
+      "source": "media/MED05-console-quest-interview-alien.svg",
+      "sha256": "715d1eb1d9ef270cee99f582dfbe536686e34f9fb2295a3f209111c0c5921d1e"
+    },
+    "media/MED06-python-logo.svg": {
+      "source": "media/MED06-python-logo.svg",
+      "sha256": "0305d6b2bb2e2761502d072e8e2db1248dbd1a99f51fb4b4bcb9e43c486ef6b2"
+    },
+    "media/MED07-jupyter.png": {
+      "source": "media/MED07-jupyter.png",
+      "sha256": "7b961e0c98d4077ff5a0f2aed5235d8dda4f6105ca8755b299dc0e964aa8721c"
+    },
+    "media/MED09-question-break-terminal.png": {
+      "source": "media/MED09-question-break-terminal.png",
+      "sha256": "1b5fbdf24dede09bcf645830b52fe3df543b2dd7761891a45013496aaef629c4"
+    },
+    "media/MED10-question-break-python-git.png": {
+      "source": "media/MED10-question-break-python-git.png",
+      "sha256": "499d8e9022a93eb89f67d0f43718c2f8f1ac84389737f88acab3afcd95b53d4c"
+    },
+    "scripts/README.md": {
+      "source": "scripts/README.md",
+      "sha256": "537fad65a59be43ffbb604a41e8d91227e8d8395069b453aa622fd6aedf98164"
+    },
+    "scripts/preflight.py": {
+      "source": "scripts/preflight.py",
+      "sha256": "e328473c1b84421bad3d380a6028c7d7c85dd2057b929a100c45f51f9d94eb30"
+    },
+    "scripts/tests/test_preflight.py": {
+      "source": "scripts/tests/test_preflight.py",
+      "sha256": "e4243ce391374ad469e4f892bcb5fcfbafd8bfdc8d976bd17cbe198663fd4d6b"
+    },
+    "setup/PREFLIGHT.md": {
+      "source": "setup/PREFLIGHT.md",
+      "sha256": "d6609ada74a4f81a935dd2548aad8e0ab7eb87845241f5d0b23576e7f4d27e8d"
+    },
+    "student/checks/README.md": {
+      "source": "student/checks/README.md",
+      "sha256": "f00cd3a4933ecaca2ab477b41eb19d5f8c043bcbdf09d99ad93ec9cfefe0e863"
+    },
+    "student/checks/check.py": {
+      "source": "student/checks/check.py",
+      "sha256": "43bf679a5c29b92b4460049bcde1c388f647e129ab0091b747fe83466ca5249c"
+    },
+    "student/checks/checker/__init__.py": {
+      "source": "student/checks/checker/__init__.py",
+      "sha256": "3499f6afb4243c9684860ad8284cd693e4f0826eaa933e3dd58df6050d508377"
+    },
+    "student/checks/checker/cli.py": {
+      "source": "student/checks/checker/cli.py",
+      "sha256": "d90aa86ff06fe5f5f6065236ebc9f0885c0ed47b67f2d66d815c6a4c38329cb7"
+    },
+    "student/checks/checker/runner.py": {
+      "source": "student/checks/checker/runner.py",
+      "sha256": "17186edb87b5c4025a6449de71b29258da19fd472c331a9e9e336d0b10c7b9e9"
+    },
+    "student/checks/checker/spec.py": {
+      "source": "student/checks/checker/spec.py",
+      "sha256": "4b0eb270feb32c92310bfdfeca0021d8b3f781d96fd57d7a1c45cb67a52d9ea1"
+    },
+    "student/checks/checker/trusted_probe.py": {
+      "source": "student/checks/checker/trusted_probe.py",
+      "sha256": "33f8f469b92af456204a3bcd96fbff4ec86c1ba603d38cb3ce8729d83d636d85"
+    },
+    "student/checks/tests/__init__.py": {
+      "source": "student/checks/tests/__init__.py",
+      "sha256": "823edba4264eac4dd9dc52dccf032653cfa4c3ea9bad045384a41c6dfbb6b680"
+    },
+    "student/checks/tests/test_checker.py": {
+      "source": "student/checks/tests/test_checker.py",
+      "sha256": "5467820990ac445b986cdf868b0da1c7020db181052a0df0f779fd72172ca2c9"
+    },
+    "student/handouts/L01.md": {
+      "source": "student/handouts/L01.md",
+      "sha256": "c3b8cd9a1a4e8f9094c4bfad0d74b6381df3f73036913c22a1089bdeb59bcfd2"
+    },
+    "student/homework/HW01.md": {
+      "source": "student/homework/HW01.md",
+      "sha256": "4b2e9e3f36f8a3fbcab6032d8d4b386ff0490ee732aad9c2b73236b3c994be00"
+    },
+    "student/lectures/L01.html": {
+      "source": "student/lectures/L01.html",
+      "sha256": "fb6bf8997dca739d954a5fb718b8538a55cbf32ccdf4909b3d12dd6cb42369d4"
+    },
+    "student/lectures/examples/L01-EX01/README.md": {
+      "source": "student/lectures/examples/L01-EX01/README.md",
+      "sha256": "840cf2f3d0ad0c439b3998d29a229a51191f265a291111be7b230c429fb92b1c"
+    },
+    "student/lectures/examples/L01-EX01/check.py": {
+      "source": "student/lectures/examples/L01-EX01/check.py",
+      "sha256": "f4ffc29889a311b19096d025ab169ece54a47f5ede4d3835ae7ec0fe1c33ce37"
+    },
+    "student/lectures/examples/L01-EX01/expected.txt": {
+      "source": "student/lectures/examples/L01-EX01/expected.txt",
+      "sha256": "964ea74b230e930a02f799c40492abf17878e9863e1c500f3041c1265bd8af02"
+    },
+    "student/lectures/examples/L01-EX01/game_state.py": {
+      "source": "student/lectures/examples/L01-EX01/game_state.py",
+      "sha256": "517c709141dfc4e401a03563e909fe180fe3a9c06a95b6d79f986ec7215eb3a6"
+    },
+    "student/lectures/examples/L01-EX02/README.md": {
+      "source": "student/lectures/examples/L01-EX02/README.md",
+      "sha256": "28a0f5a2f9a43d73d9bf3aa1c215775a9ad8304bfdfb46be278a099476bae66e"
+    },
+    "student/lectures/examples/L01-EX02/basics.py": {
+      "source": "student/lectures/examples/L01-EX02/basics.py",
+      "sha256": "3fbc6ff9b7fe0d50ed83dc962ff2ca8cb9ef7126b0350be14b6f70bfb57c7bc3"
+    },
+    "student/lectures/examples/L01-EX02/check.py": {
+      "source": "student/lectures/examples/L01-EX02/check.py",
+      "sha256": "2410c861ef258eca89c87f40327e3bf6446b6296451aae9f75e507fe32b89cb7"
+    },
+    "student/lectures/examples/L01-EX02/control_flow.expected.txt": {
+      "source": "student/lectures/examples/L01-EX02/control_flow.expected.txt",
+      "sha256": "6c46d3d268d3c282cae6debf381a56a417cf35114bf8a9c89d48a01a23dc7658"
+    },
+    "student/lectures/examples/L01-EX02/control_flow.py": {
+      "source": "student/lectures/examples/L01-EX02/control_flow.py",
+      "sha256": "72e3f72924934146645af24ae9c5f4570d1fa297e4ebcfb5a175050d38c584b0"
+    },
+    "student/lectures/examples/L01-EX02/expected.txt": {
+      "source": "student/lectures/examples/L01-EX02/expected.txt",
+      "sha256": "90e2f94b5cd375156c0732ec2162101e9f847efaf9cc8c4b19034bceec547d42"
+    },
+    "student/lectures/examples/L01-EX02/invalid_case.py": {
+      "source": "student/lectures/examples/L01-EX02/invalid_case.py",
+      "sha256": "42ae08411e10d5936a1469c20e2a2f89d0de5b99522fca08e87649abd684b2d6"
+    },
+    "student/lectures/examples/L01-EX03/README.md": {
+      "source": "student/lectures/examples/L01-EX03/README.md",
+      "sha256": "6a5c688f6640c367e8ba9ee493023da39af7daf0c0dfb26e996ef0c7321cae54"
+    },
+    "student/lectures/examples/L01-EX03/check.py": {
+      "source": "student/lectures/examples/L01-EX03/check.py",
+      "sha256": "d47ad162b2ef7e83ec292055ebc54170d831962f87d3ad613c854881c3004770"
+    },
+    "student/lectures/examples/L01-EX03/dataclass_methods.expected.txt": {
+      "source": "student/lectures/examples/L01-EX03/dataclass_methods.expected.txt",
+      "sha256": "c1127a2d29a175880a8816a1249f4820db71c3f51161ea907c8f02fb9fd99ba2"
+    },
+    "student/lectures/examples/L01-EX03/dataclass_methods.py": {
+      "source": "student/lectures/examples/L01-EX03/dataclass_methods.py",
+      "sha256": "0715055be2b47317840b85ab834a31709fc0d6cecc70ae515c2bf2548d0271b7"
+    },
+    "student/lectures/examples/L01-EX03/expected.txt": {
+      "source": "student/lectures/examples/L01-EX03/expected.txt",
+      "sha256": "6d3cf041ac69c199d1726b2bb8ff872d925ea2add044f683a84213a768a12f26"
+    },
+    "student/lectures/examples/L01-EX03/frozen.expected.txt": {
+      "source": "student/lectures/examples/L01-EX03/frozen.expected.txt",
+      "sha256": "77457a4eb3b2ce43a76df2ad8a320f9be33936ecca8bb34180ae90f7fd70bed0"
+    },
+    "student/lectures/examples/L01-EX03/frozen_demo.py": {
+      "source": "student/lectures/examples/L01-EX03/frozen_demo.py",
+      "sha256": "585adf16763675906f7ebcafd8ec65d386663bb32914fd94e9f6ac12ee920a96"
+    },
+    "student/lectures/examples/L01-EX03/scene.py": {
+      "source": "student/lectures/examples/L01-EX03/scene.py",
+      "sha256": "4a7b2a0e13551858108bb0f9f464190328160563d54b920bdc3b8b540372ef9e"
+    },
+    "student/lectures/examples/L01-EX03/use_scene.py": {
+      "source": "student/lectures/examples/L01-EX03/use_scene.py",
+      "sha256": "44b15850dfbf4243e9b1c5ae0de7d85ef7c77b09992abfcb9071f97f5038670f"
+    },
+    "student/lectures/examples/L01-README.md": {
+      "source": "student/lectures/examples/L01-README.md",
+      "sha256": "fda5815892f5e6d542e9134ca3e159a707fdd624496c9ad7d2fbc8b7fac27948"
+    }
+  },
+  "through_lecture": "L01"
+}
