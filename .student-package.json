@@ -2,7 +2,7 @@
   "format_version": 1,
   "course_id": "python-django-backend",
   "course_version": "0.8.0",
-  "source_build_fingerprint": "eeafdbefed4aad865e22c65e2122cc74da9524d64bc15ac40f42e5c83a02841b",
+  "source_build_fingerprint": "d9b35fc05a43850f3c1038d17f6342d8e76ca91663e24b1fead7d63f61a676cd",
   "whitelist_sha256": "712824d386cffebe262a8725d328beb7fbeee1901711bd1c5b3b0b74327587ff",
   "files": {
     "README.md": {
@@ -99,7 +99,7 @@
     },
     "student/lectures/L01.html": {
       "source": "student/lectures/L01.html",
-      "sha256": "fb6bf8997dca739d954a5fb718b8538a55cbf32ccdf4909b3d12dd6cb42369d4"
+      "sha256": "e2415ac371183edbe9acc869eb8c726fed6bbe3ee4e9eb0479ab16fa403018cc"
     },
     "student/lectures/examples/L01-EX01/README.md": {
       "source": "student/lectures/examples/L01-EX01/README.md",
