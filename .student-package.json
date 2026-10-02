@@ -2,7 +2,7 @@
   "format_version": 1,
   "course_id": "python-django-backend",
   "course_version": "0.8.0",
-  "source_build_fingerprint": "5cdf7771edc017b11e4d3a9aa11a39f10ba9c96441dc5c1f1ca48c53aa997394",
+  "source_build_fingerprint": "2e5b7e922d645fb159777d8f4f7eac8318442848c7c65fb517d0a26f60ac4da2",
   "whitelist_sha256": "712824d386cffebe262a8725d328beb7fbeee1901711bd1c5b3b0b74327587ff",
   "files": {
     "README.md": {
@@ -11,7 +11,7 @@
     },
     "glossary.md": {
       "source": "glossary.md",
-      "sha256": "73c4ed3ab3e36ec4febd974201ee82a2095e835af9b6e408372cc9bf3cfa921c"
+      "sha256": "b0fa2ce1d1b39e56351086abb7cf915875e6a74eb79d92c06bb96950404bfb45"
     },
     "media/MED01-console-quest-battle-hp-75.png": {
       "source": "media/MED01-console-quest-battle-hp-75.png",
@@ -91,7 +91,7 @@
     },
     "student/handouts/L01.md": {
       "source": "student/handouts/L01.md",
-      "sha256": "92f0f9fdc1cce68525f3a2d68127c9fa41d70958c156606dc3975788b7392a90"
+      "sha256": "e068176d1da4b98cd008add194f981b7d743f6e934735cc38c18686663f9b020"
     },
     "student/homework/HW01.md": {
       "source": "student/homework/HW01.md",
@@ -99,15 +99,15 @@
     },
     "student/lectures/L01.html": {
       "source": "student/lectures/L01.html",
-      "sha256": "3fb56281843c61ee9e86865cad3ba2805c9d6271d63aaf03bf89c191d22e7505"
+      "sha256": "ed8824c8cba0604cac5659f7320f0550cdb6ccc589ed1ec348ec1fa81bac3142"
     },
     "student/lectures/examples/L01-EX01/README.md": {
       "source": "student/lectures/examples/L01-EX01/README.md",
-      "sha256": "840cf2f3d0ad0c439b3998d29a229a51191f265a291111be7b230c429fb92b1c"
+      "sha256": "983d37e1e304a24e60258319d53cc429d325f88b98501af94087e4d67a50f078"
     },
     "student/lectures/examples/L01-EX01/check.py": {
       "source": "student/lectures/examples/L01-EX01/check.py",
-      "sha256": "f4ffc29889a311b19096d025ab169ece54a47f5ede4d3835ae7ec0fe1c33ce37"
+      "sha256": "ec2c8e71a3cfa96f7e9d0372d01a706816a2d9cb678dac681c3fbd0d75df9fb9"
     },
     "student/lectures/examples/L01-EX01/expected.txt": {
       "source": "student/lectures/examples/L01-EX01/expected.txt",
@@ -116,6 +116,14 @@
     "student/lectures/examples/L01-EX01/game_state.py": {
       "source": "student/lectures/examples/L01-EX01/game_state.py",
       "sha256": "517c709141dfc4e401a03563e909fe180fe3a9c06a95b6d79f986ec7215eb3a6"
+    },
+    "student/lectures/examples/L01-EX01/shared.expected.txt": {
+      "source": "student/lectures/examples/L01-EX01/shared.expected.txt",
+      "sha256": "6a40c84069186fa7c5e6e15b0d9e9e4c4989d5b2e03db66e0d4c54ed641f7dc4"
+    },
+    "student/lectures/examples/L01-EX01/shared_state.py": {
+      "source": "student/lectures/examples/L01-EX01/shared_state.py",
+      "sha256": "12f066c98fb11040e6f3fce97ad768ab2ea86e96b34e5211ac2084e2571e9dc0"
     },
     "student/lectures/examples/L01-EX02/README.md": {
       "source": "student/lectures/examples/L01-EX02/README.md",

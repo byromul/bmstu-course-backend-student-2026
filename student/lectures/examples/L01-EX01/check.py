@@ -22,13 +22,13 @@ def parse_args() -> argparse.Namespace:
     return parser.parse_args()
 
 
-def check_execution() -> None:
-    expected = EXPECTED.read_text(encoding="utf-8")
+def check_execution(source: Path = SOURCE, expected_path: Path = EXPECTED) -> None:
+    expected = expected_path.read_text(encoding="utf-8")
     with tempfile.TemporaryDirectory(prefix="course-cap01-") as temporary:
         root = Path(temporary)
-        shutil.copy2(SOURCE, root / SOURCE.name)
+        shutil.copy2(source, root / source.name)
         completed = subprocess.run(
-            [sys.executable, SOURCE.name],
+            [sys.executable, source.name],
             cwd=root,
             capture_output=True,
             text=True,
@@ -40,7 +40,7 @@ def check_execution() -> None:
         raise RuntimeError(f"стандартный поток ошибок не пуст: {completed.stderr.strip()}")
     if completed.stdout != expected:
         raise RuntimeError(
-            "стандартный вывод не совпал с expected.txt: "
+            f"стандартный вывод {source.name} не совпал с {expected_path.name}: "
             f"ожидалось {expected!r}, получено {completed.stdout!r}"
         )
 
@@ -60,6 +60,7 @@ def main() -> int:
     args = parse_args()
     try:
         check_execution()
+        check_execution(EXERCISE_ROOT / "shared_state.py", EXERCISE_ROOT / "shared.expected.txt")
         if args.html is not None:
             check_html(args.html.resolve())
     except (OSError, RuntimeError, UnicodeError) as error:
