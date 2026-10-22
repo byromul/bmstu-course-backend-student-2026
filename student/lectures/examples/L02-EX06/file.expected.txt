@@ -1,0 +1,4 @@
+DEBUG quest: Исходные данные: hp=6
+INFO quest: Ход начат: scene_id=SCN007
+INFO quest: Ход завершён: damage=2 hp=4
+WARNING quest: Мало здоровья: hp=4

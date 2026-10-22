@@ -1,0 +1,7 @@
+schema_version: 1
+current_scene_id: SCN001
+player:
+  name: Мира
+  hp: 9
+  str: 3
+  def: 2
