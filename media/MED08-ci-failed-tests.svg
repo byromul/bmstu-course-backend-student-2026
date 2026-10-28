@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title description">
+  <title id="title">Учебный макет неуспешного запуска GitHub Actions</title>
+  <desc id="description">Рабочий процесс «Проверки» завершился с ошибкой: из 12 тестов 10 прошли и 2 упали. Ниже показан фрагмент журнала unittest.</desc>
+  <rect width="1600" height="900" fill="#f6f8fa"/>
+  <rect x="36" y="28" width="1528" height="844" rx="24" fill="#ffffff" stroke="#d0d7de" stroke-width="2"/>
+  <rect x="36" y="28" width="1528" height="105" rx="24" fill="#24292f"/>
+  <rect x="36" y="108" width="1528" height="25" fill="#24292f"/>
+  <text x="84" y="94" fill="#ffffff" font-family="Arial, sans-serif" font-size="43" font-weight="700">GitHub Actions</text>
+  <text x="1260" y="88" fill="#b6e3ff" font-family="Arial, sans-serif" font-size="24">УЧЕБНЫЙ МАКЕТ</text>
+  <text x="84" y="204" fill="#24292f" font-family="Arial, sans-serif" font-size="43" font-weight="700">console-quest / Проверки</text>
+  <rect x="83" y="232" width="220" height="64" rx="32" fill="#ffebe9"/>
+  <circle cx="119" cy="264" r="14" fill="#cf222e"/>
+  <text x="148" y="275" fill="#cf222e" font-family="Arial, sans-serif" font-size="30" font-weight="700">Сбой</text>
+  <text x="331" y="272" fill="#57606a" font-family="Arial, sans-serif" font-size="25">Задание «Тесты Python» завершилось с кодом 1</text>
+  <rect x="84" y="326" width="440" height="150" rx="18" fill="#dafbe1" stroke="#aceebb" stroke-width="2"/>
+  <rect x="580" y="326" width="440" height="150" rx="18" fill="#ffebe9" stroke="#ffcecb" stroke-width="2"/>
+  <rect x="1076" y="326" width="440" height="150" rx="18" fill="#ddf4ff" stroke="#b6e3ff" stroke-width="2"/>
+  <text x="122" y="386" fill="#1a7f37" font-family="Arial, sans-serif" font-size="27">Успешно</text>
+  <text x="122" y="451" fill="#1a7f37" font-family="Arial, sans-serif" font-size="70" font-weight="700">10</text>
+  <text x="618" y="386" fill="#cf222e" font-family="Arial, sans-serif" font-size="27">Провалено</text>
+  <text x="618" y="451" fill="#cf222e" font-family="Arial, sans-serif" font-size="70" font-weight="700">2</text>
+  <text x="1114" y="386" fill="#0969da" font-family="Arial, sans-serif" font-size="27">Всего</text>
+  <text x="1114" y="451" fill="#0969da" font-family="Arial, sans-serif" font-size="70" font-weight="700">12</text>
+  <rect x="84" y="518" width="1432" height="306" rx="16" fill="#0d1117"/>
+  <text x="120" y="570" fill="#e6edf3" font-family="Menlo, Consolas, monospace" font-size="25">$ python -m unittest discover -s client/tests -v</text>
+  <text x="120" y="618" fill="#7ee787" font-family="Menlo, Consolas, monospace" font-size="24">test_scene_lookup ... ok</text>
+  <text x="120" y="661" fill="#ff7b72" font-family="Menlo, Consolas, monospace" font-size="24">test_choice_zero ... FAIL</text>
+  <text x="120" y="704" fill="#ff7b72" font-family="Menlo, Consolas, monospace" font-size="24">test_bad_save ... FAIL</text>
+  <text x="120" y="752" fill="#e6edf3" font-family="Menlo, Consolas, monospace" font-size="24">Ran 12 tests in 0.28s</text>
+  <text x="120" y="794" fill="#ff7b72" font-family="Menlo, Consolas, monospace" font-size="27" font-weight="700">FAILED (failures=2)</text>
+</svg>

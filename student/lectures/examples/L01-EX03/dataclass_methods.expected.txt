@@ -1,0 +1,2 @@
+Scene(description='Вы нашли выход.', choices=())
+True
